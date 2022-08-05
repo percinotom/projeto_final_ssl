@@ -1,0 +1,46 @@
+.body{
+    display: flex;
+    min-height: 100vh;
+    line-height: normal;
+    color: #fff;
+}
+
+#inicio{
+    text-align: center;
+    background-color: #000;
+    height: calc(100vh - 100px);
+    color: #CCCCCC;
+    font-size: 1.1rem;
+    margin: 50px;
+}
+
+form{
+    border-radius: 10px;
+    border: solid 1px #673ab7;
+    padding-bottom: 50px;
+}
+
+input{
+    border-radius: 5px;
+    width: 40%;
+    height: 20px;
+}
+
+input[type=submit] {
+    border: 1px solid #333;
+    background-color: Teal;
+    color: #fff;
+    width: 30%;
+    height: 40px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select{
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
